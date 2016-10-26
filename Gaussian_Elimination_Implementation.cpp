@@ -47,8 +47,7 @@ void transforma_em_zero(int coluna){
 			matriz[i][j] -= pivo * matriz[coluna][j];
 		
 		debug();
-	}
-		
+	}		
 }
 
 void gerar_resultado(){
